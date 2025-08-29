@@ -36,7 +36,7 @@ Raccoon이 악보에 맞춰 실로폰을 연주하는 예제입니다.
 
 | 제품명(수량) | 이미지 | 제품명(수량) | 이미지 |
 | :---: | :---: | :---: | :---: |
-| Raccoon<br> (1개) | <img width="200" alt="Image" src="https://github.com/user-attachments/assets/6aed75da-3092-4295-9ef7-e8956efa5bae" /> | 실로폰용 말단 장치<br> (1개) | <img width="200" alt="Image" src="https://github.com/user-attachments/assets/f94e3aae-e7ef-447d-921e-71b026d86c87" /> |
+| Raccoon<br> (1개) | <img width="200" alt="Image" src="https://github.com/user-attachments/assets/912bd02f-ecae-4c8c-b7e6-5f952edaa7d3" /> | 실로폰용 말단 장치<br> (1개) | <img width="200" alt="Image" src="https://github.com/user-attachments/assets/f94e3aae-e7ef-447d-921e-71b026d86c87" /> |
 | 실로폰<br> (1개) | <img width="200" alt="Image" src="https://github.com/user-attachments/assets/dba46449-236b-4273-bb72-1256359cb4c0" /> | Block Composer | <img width="200" alt="Image" src="https://github.com/user-attachments/assets/f06909aa-91f6-4f47-8c4d-2a0044d99c49" /> |
 
 <br><br>
@@ -48,16 +48,16 @@ Raccoon이 악보에 맞춰 실로폰을 연주하는 예제입니다.
 ## 2. 초기 환경 구성
 - Raccoon의 **대시보드**를 켜 **각도 제어 모드**로 변경합니다.
 
-  <img width="1000" alt="Image" src="https://github.com/user-attachments/assets/e6b6dcd0-9015-4ae1-b4b3-5a6cdf0f05d4" />
+  <img width="900" alt="Image" src="https://github.com/user-attachments/assets/ceaff201-3e80-413b-8ed8-777fab0af8ca" />
 
-  <img width="1000" alt="Image" src="https://github.com/user-attachments/assets/71185a70-3517-4041-ac5c-6b6dfead9244" />
+  <img width="900" alt="Image" src="https://github.com/user-attachments/assets/c0264cd8-6e3b-4796-b532-9889984a01f7" />
 
 
 <br><br>
 
 - RaccoonBot의 각도를 위에서부터 **21, -65, -52, 0**으로 설정하여 **실로폰 연주 준비 자세**로 이동합니다.
 
-  <img width="1000" alt="Image" src="https://github.com/user-attachments/assets/babe8aec-6689-4db3-8abf-859b63f23502" />
+  <img width="900" alt="Image" src="https://github.com/user-attachments/assets/f2d3b746-1ba9-4ce5-bb5b-ea634fb478d3" />
 
   <img width="500" alt="Image" src="https://github.com/user-attachments/assets/628d7508-d10e-4e88-a380-71196ccd79e4" />
 
@@ -68,7 +68,7 @@ Raccoon이 악보에 맞춰 실로폰을 연주하는 예제입니다.
   
   <img width="500" alt="Image" src="https://github.com/user-attachments/assets/f03301e8-6af5-42c8-a1f1-5427d3efa00b" />
 
-  <img width="1000" alt="Image" src="https://github.com/user-attachments/assets/4c887ff5-0fdf-4880-b451-73520da4c9f6" />
+  <img width="900" alt="Image" src="https://github.com/user-attachments/assets/0cc2088d-3441-4eb8-9123-8b29f42ca96b" />
 
 
 <br><br>
@@ -77,14 +77,14 @@ Raccoon이 악보에 맞춰 실로폰을 연주하는 예제입니다.
 
   ![image](https://github.com/user-attachments/assets/7c0af05e-3e12-4c50-9b51-6e42bec4b83a)
 
-  <img width="1000" alt="Image" src="https://github.com/user-attachments/assets/8f18a5e4-43cf-4aaa-96c4-7fad2e028f21" />
+  <img width="900" alt="Image" src="https://github.com/user-attachments/assets/f4568147-d04b-43c2-8f17-745d603426e1" />
 
 
 <br><br>
 
 - 기록한 **Joint 1번의 각도**를 음에 맞춰 **각도값**을 수정합니다.
 
-  <img width="300" alt="Image" src="https://github.com/user-attachments/assets/9293032f-a47c-4f61-8d49-6859fdb4c3f9" />
+  <img width="300" alt="Image" src="https://github.com/user-attachments/assets/29f776a8-b751-4d5d-96c1-a1a13199ea42" />
 
 
 <br><br>
@@ -116,7 +116,7 @@ Raccoon이 악보에 맞춰 실로폰을 연주하는 예제입니다.
   | 라(A4) | **Joint 1**을 **라**에 해당하는 각도로 이동합니다. |
   | 시(B4) | **Joint 1**을 **시**에 해당하는 각도로 이동합니다. |
   | 또(C5) | **Joint 1**을 **또**에 해당하는 각도로 이동합니다. |
-  | (띄어쓰) | **Joint 1**을 **반박자** 쉽니다. |
+  | (띄어쓰기) | **Joint 1**을 **반박자** 쉽니다. |
 
 
 <br><br>
@@ -128,14 +128,14 @@ Raccoon이 악보에 맞춰 실로폰을 연주하는 예제입니다.
 ## 3. 작동하기
 - 오른쪽 위 **실행 버튼**을 클릭합니다.
 
-  <img width="1000" alt="Image" src="https://github.com/user-attachments/assets/e29aa02b-faec-418b-9f47-a35e5e69cdf1" />
+  <img width="900" alt="Image" src="https://github.com/user-attachments/assets/e29aa02b-faec-418b-9f47-a35e5e69cdf1" />
 
 
 <br><br>
 
 - 사용자가 코드를 실행해 **미리 작성된 악보** 또는 **새롭게 작성한 악보**를 선택합니다.
 
-  <img width="1000" alt="Image" src="https://github.com/user-attachments/assets/1c838b95-5fe8-43f4-b8ef-57cff004b612" />
+  <img width="900" alt="Image" src="https://github.com/user-attachments/assets/5c709ec7-d393-4133-bed5-b91c8e6415ed" />
 
 
 <br><br>
@@ -374,7 +374,7 @@ Raccoon이 악보에 맞춰 실로폰을 연주하는 예제입니다.
 
 ## 7. 관련 내용
 
-[P 제어 이론]([https://github.com/RoboidStudioLAB/Wiki_Image/wiki/P-%EC%A0%9C%EC%96%B4-%EC%9D%B4%EB%A1%A0](https://github.com/RoboidStudioLAB/Wiki_Image/wiki/P-%EC%A0%9C%EC%96%B4(%EB%B9%84%EB%A1%80-%EC%A0%9C%EC%96%B4)))
+[P 제어 이론](https://github.com/RoboidStudioLAB/Wiki_Image/wiki/P-%EC%A0%9C%EC%96%B4(%EB%B9%84%EB%A1%80-%EC%A0%9C%EC%96%B4))
 
 <br>
 
