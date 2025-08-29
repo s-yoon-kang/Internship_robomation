@@ -27,7 +27,7 @@
 
 | Raccoon | 기구학 |
 | :---: | :---: |
-| <img src="https://github.com/user-attachments/assets/6e59013f-3f2f-4256-bdb9-7f7dc80a1d0e" width="600" alt="7_3-1" /> | <img src="https://github.com/user-attachments/assets/17d3bd79-796f-4db8-8b7d-57dabf09db2e" height="300" alt="7_3-2" /> |
+| <img src="https://github.com/user-attachments/assets/5c956b0f-3ee2-40a5-98da-ded7ec94d368" width="600" alt="7_3-1" /> | <img src="https://github.com/user-attachments/assets/17d3bd79-796f-4db8-8b7d-57dabf09db2e" height="300" alt="7_3-2" /> |
 
 * **링크 길이** *(단위: mm)*:
   * $L_1 = 0$  *(xy평면 즉, 원점을 Joint 2로 설정하기 위해 0으로 설정)*
