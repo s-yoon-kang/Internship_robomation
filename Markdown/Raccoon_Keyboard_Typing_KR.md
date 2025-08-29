@@ -18,7 +18,7 @@ Raccoon이 입력된 문장을 직접 키보드로 반복 타이핑하는 예제
 예제에는 **잘못된 입력 감지**, **대/소문자 감지**, **키 입력 감지/재시도** 기능이 있습니다.
 <br>
 
- <img width="500" alt="Image" src="https://github.com/user-attachments/assets/922f348e-4223-48b0-a655-dfa4bb3dde81" />
+ <img width="500" alt="Image" src="https://github.com/user-attachments/assets/ab19bdcf-d2f4-46f7-8ba1-7eaabeccbebb" />
 
 <br><br>
 
@@ -32,8 +32,8 @@ Raccoon이 입력된 문장을 직접 키보드로 반복 타이핑하는 예제
 
 | 제품명(수량) | 이미지 | 제품명(수량) | 이미지 |
 | :---: | :---: | :---: | :---: |
-| Raccoon<br> (1개) | <img width="200" alt="Image" src="https://github.com/user-attachments/assets/6aed75da-3092-4295-9ef7-e8956efa5bae" /> | 키보드용 말단 장치<br> (1개) | <img width="50" alt="Image" src="https://github.com/user-attachments/assets/4c2f9d5a-0253-4ff0-b5cf-58f43507cfec" /> |
-| 미니 키보드<br> (1개) | <img width="200" alt="Image" src="https://github.com/user-attachments/assets/d03b4532-8ac9-4c96-a1a5-9764d744256b" /> | Python | <img width="200" alt="Image" src="https://github.com/user-attachments/assets/62366b02-9b80-41fc-951b-b54c51f5814b" /> |
+| Raccoon<br> (1개) | <img width="200" alt="Image" src="https://github.com/user-attachments/assets/912bd02f-ecae-4c8c-b7e6-5f952edaa7d3" /> | 키보드용 말단 장치<br> (1개) | <img width="50" alt="Image" src="https://github.com/user-attachments/assets/48751593-fa2d-49e1-8019-0f917e2af684" /> |
+| 미니 키보드<br> (1개) | <img width="200" alt="Image" src="https://github.com/user-attachments/assets/c0db7bce-774b-4243-87ca-e703aea70d87" /> | Python | <img width="200" alt="Image" src="https://github.com/user-attachments/assets/12ee0432-c78d-40f4-b698-fea9022df851" /> |
 
 <br><br>
 
@@ -44,31 +44,31 @@ Raccoon이 입력된 문장을 직접 키보드로 반복 타이핑하는 예제
 ## 2. 초기 환경 구성
 - Raccoon과 키보드를 **5cm** 간격을 두고 중앙을 맞춰 **마주보게** 배치해주세요.
 
-  <img width="500" alt="Image" src="https://github.com/user-attachments/assets/6e493534-edd2-477e-9397-18614ac4790a" />
+  <img width="500" alt="Image" src="https://github.com/user-attachments/assets/09a588c0-df33-49e3-b14c-0244b5ec7988" />
 
 <br><br>
 
 - **Joint 4**가 **수직**으로 키의 정중앙을 누를 수 있게 위치를 조절하며 **key_mapping** 함수를 수정합니다.
 
-  <img width="500" alt="Image" src="https://github.com/user-attachments/assets/73220c2d-ced2-4b4c-8178-90f19193a4b0" />
+  <img width="500" alt="Image" src="https://github.com/user-attachments/assets/9e07fab8-e9a4-4a5d-9a54-bd4b300154b6" />
 
 <br><br>
 
 - **key_mapping** 함수와 **RaccoonBot**의 **XYZ 좌표계**는 다음과 같습니다. (단위: cm)
 
-  <img width="500" alt="Image" src="https://github.com/user-attachments/assets/12c8777d-20ad-4e7d-983b-cd4033817549" /> <img width="500" alt="Image" src="https://github.com/user-attachments/assets/02a18a92-bdf9-423a-80f0-47903d1bed77" />
+  <img width="500" alt="Image" src="https://github.com/user-attachments/assets/5bb12fad-6500-4ac5-94c9-82666fcfd5a4" /> <img width="500" alt="Image" src="https://github.com/user-attachments/assets/44a7c389-2038-4c4c-85f3-56f7b3ab7caf" />
 
 <br><br>
 
 - **Z축**의 경우 키보드를 완전히 누르는 좌표보다 **0.2cm 더 낮게** 설정합니다.
 
-  <img width="500" alt="Image" src="https://github.com/user-attachments/assets/8f6145cb-52f2-431c-8cac-0dfb8f1fadff" />
+  <img width="500" alt="Image" src="https://github.com/user-attachments/assets/704a2fcc-1043-4eaa-8f8d-f8d46db7018a" />
 
 <br><br>
 
 - **1 ~ 0** | **a ~ z** | **,** | **.** | **Caps lock** | **Space** | **Enter**의 좌표를 모두 수정하고 문장 입력에 차례대로 입력하며 확인합니다.
 
-  <img width="1500" alt="Image" src="https://github.com/user-attachments/assets/3a01331f-c1b0-402b-b966-d7c0ff4fa67c" />
+  <img width="1500" alt="Image" src="https://github.com/user-attachments/assets/9f981d13-b70c-41ec-b5d6-19e92eedeedb" />
 
 <br><br>
 
@@ -79,19 +79,19 @@ Raccoon이 입력된 문장을 직접 키보드로 반복 타이핑하는 예제
 ## 3. 작동하기
 - 코드에 반복 타이핑할 문장을 **영어**로 **["문장"]** 과 같이 입력합니다. 
 
-  <img width="500" alt="Image" src="https://github.com/user-attachments/assets/78056e0e-83d0-4392-a9c0-40b78b0fce89" />
+  <img width="500" alt="Image" src="https://github.com/user-attachments/assets/e5baed28-661c-4446-ae69-7ce7a49feb80" />
 
 <br><br>
 
 - 여러 문장의 경우 다음과 같이 **["문장 1", "문장 2"]** 로 나눠서 작성합니다.
 
-  <img width="500" alt="Image" src="https://github.com/user-attachments/assets/237277ba-68a3-42e8-8a9b-6d395765a971" />
+  <img width="500" alt="Image" src="https://github.com/user-attachments/assets/44d8d35a-a3b0-493f-82e5-8c0113855a4b" />
 
 <br><br>
 
 - **오른쪽 위 재생 버튼**을 눌러 코드를 실행합니다.
 
-  <img width="1500" alt="Image" src="https://github.com/user-attachments/assets/4f7ce5bf-3c7b-467f-bde2-eb4daea5f131" />
+  <img width="1500" alt="Image" src="https://github.com/user-attachments/assets/adffe618-8c74-4a23-908a-ff0e02c16070" />
 
 <br><br>
 
@@ -115,29 +115,31 @@ Raccoon이 입력된 문장을 직접 키보드로 반복 타이핑하는 예제
 ## 5. 작동 알고리즘
 - 사용자가 코드에 반복 타이핑할 문장을 **영어**로 **["문장"]** 입력하고 코드를 실행합니다. 
 
-  <img width="500" alt="Image" src="https://github.com/user-attachments/assets/78056e0e-83d0-4392-a9c0-40b78b0fce89" />
+  <img width="500" alt="Image" src="https://github.com/user-attachments/assets/44d8d35a-a3b0-493f-82e5-8c0113855a4b" />
 
 <br><br>
 
 - Raccoon이 **타이핑 자세**로 이동 후 **로그 출력**과 **BEEP 소리**와 함께 타이핑을 시작합니다.
 
-  <img width="500" alt="Image" src="https://github.com/user-attachments/assets/34250add-1295-4f03-a9b1-9cd1ad9e8a80" />
+  <img width="500" alt="Image" src="https://github.com/user-attachments/assets/527278ba-0982-46d5-9460-31123bb88782" />
 
 <br><br>
 
 - 대문자는 **Caps Lock 토글**로 제어하여 입력합니다.
 
-  <img width="500" height="150" alt="Image" src="https://github.com/user-attachments/assets/73b41e4c-7390-4573-9e8a-c1aa441eb596" />
+  <img width="500" alt="Image" src="https://github.com/user-attachments/assets/f14efcc1-79dc-4a63-8623-f1cd41afdb71" />
 
 <br><br>
 
 - 입력 도중 실시간으로 잘못된 키 입력을 감지하며 **오입력**시 **ENGINE 소리**와 함께 **단어를 건너뛰고 Enter** 후 다음 단어로 진행합니다.
 
-  <img width="500" alt="Image" src="https://github.com/user-attachments/assets/589bf472-e314-411e-bfb2-37913c58b777" />
+  <img width="500" alt="Image" src="https://github.com/user-attachments/assets/2f4af5ea-e2c2-4a44-a8e5-c96cedd16e7d" />
 
 <br><br>
 
 - 오류 없이 문장 입력을 완료하면 초기 자세로 돌아와 **GOOD JOB 소리**를 내고 다음 문장을 다시 작성합니다.
+
+  <img width="500" alt="Image" src="https://github.com/user-attachments/assets/5e9ccf00-78fe-4620-b7c2-f28a74993499" />
 
 <br><br>
 
